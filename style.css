@@ -31,11 +31,18 @@ header p {
 }
 
 /* Input and button styling */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
 input {
   padding: 10px;
-  width: 80%;
+  width: 70%;
   max-width: 400px;
-  margin: 10px auto;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
@@ -71,7 +78,6 @@ button:hover {
   margin-top: 30px;
   padding: 10px;
   border-top: 1px solid #ddd;
-  color: #0HWY41
 }
 
 .ad-container h3 {
