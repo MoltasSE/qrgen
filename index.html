@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    #qr-code {
+      margin: 20px auto;
+      padding: 10px;
+      border: 1px solid #ddd;
+      display: inline-block;
+    }
+    input, button {
+      padding: 10px;
+      margin: 10px;
+      width: 80%;
+      max-width: 400px;
+    }
+    button {
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .ad-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>QR Code Generator</h1>
+  <input id="text-input" type="text" placeholder="Enter text or URL">
+  <button onclick="generateQRCode()">Generate QR Code</button>
+  <div id="qr-code"></div>
+
+  <!-- Ad Space -->
+  <div class="ad-container">
+    <h3>Advertisement</h3>
+    <div id="ad">
+      <!-- AdSense or other ad code will go here -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
