@@ -1,0 +1,87 @@
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Container for the main content */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header section */
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #4CAF50;
+}
+
+header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Input and button styling */
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* QR Code section */
+#qr-code {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+  background: #fff;
+}
+
+/* Ad section */
+.ad-container {
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.ad-container h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #4CAF50;
+}
+
+#ad {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  color: #777;
+}
