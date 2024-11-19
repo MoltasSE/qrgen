@@ -19,6 +19,8 @@ function generateQRCode() {
       light: "#ffffff"  // Background color
     }
   }, (error) => {
-    if (error) console.error(error);
+    if (error) {
+      console.error("QR Code generation error:", error);
+    }
   });
 }
