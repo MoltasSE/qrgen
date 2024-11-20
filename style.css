@@ -59,6 +59,15 @@ button:hover {
 }
 
 /* QR Code section */
+#qr-code {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+  background: #ffffff;
+}
+/* QR Code section */
 #qr-code-container {
   margin: 20px auto;
   padding: 10px;
