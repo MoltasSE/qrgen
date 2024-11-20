@@ -10,21 +10,21 @@
   <div class="container">
     <header>
       <h1>QR Code Generator</h1>
-      <p>Enter text or a URL to generate your QR code instantly.</p>
+      <p>Enter text or a URL to generate your QR code.</p>
     </header>
     <main>
-      <div class="input-container">
+      <div class="form-group">
         <input id="text-input" type="text" placeholder="Enter text or URL">
         <button onclick="generateQRCode()">Generate QR Code</button>
       </div>
       <div id="qr-code"></div>
     </main>
-    <div class="ad-container">
-      <h3>Advertisement</h3>
-      <div id="ad">
-        <p>Your ad could be here!</p>
+    <footer>
+      <div class="ad-section">
+        <h3>Advertisement</h3>
+        <p>Your ad can be displayed here!</p>
       </div>
-    </div>
+    </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
   <script src="script.js"></script>
