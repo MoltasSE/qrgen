@@ -59,14 +59,23 @@ button:hover {
 }
 
 /* QR Code section */
-#qr-code {
+#qr-code-container {
   margin: 20px auto;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ffffff;
+  min-height: 220px; /* Sätter minsta höjd för QR-kodens yta */
 }
+
+canvas {
+  display: block; /* Säkerställer att canvas-elementet visas korrekt */
+  margin: auto;
+}
+
 
 /* Footer */
 footer {
