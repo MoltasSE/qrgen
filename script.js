@@ -2,11 +2,11 @@ function generateQRCode() {
   const text = document.getElementById('text-input').value;
   const qrCodeContainer = document.getElementById('qr-code');
 
-  // Clear previous QR code
+  // Clear any existing QR code
   qrCodeContainer.innerHTML = "";
 
   if (text.trim() === "") {
-    alert("Please enter some text to generate a QR code!");
+    alert("Please enter text or a URL to generate a QR code.");
     return;
   }
 
@@ -20,7 +20,7 @@ function generateQRCode() {
     }
   }, (error) => {
     if (error) {
-      console.error("QR Code generation error:", error);
+      console.error("QR Code generation failed:", error);
     }
   });
 }
